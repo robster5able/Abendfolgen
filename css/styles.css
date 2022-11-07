@@ -1,5 +1,50 @@
-body {
+.logo{
   background-color: #153462;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  padding: 10px;
+}
+.headline {
+  background-color: #153462;
+  height: 200px;
+  width:100%;
+  left: 200px;
+  top: 0px;
+  position: fixed;
+}
+
+.background{
+  background-color: #153462;
+}
+
+.navigation{
+  background-color: #4FA095;
+  height: 100%;
+  width:200px;
+  left: 0px;
+  top: 200px;
+  position: fixed;
+}
+.content{
+  background-color: #153462;
+  height: 100%;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+
+.headlineAbstandHorizontal{
+  margin-left: 30px;
+}
+
+.headlineAbstandVerticalAndHorizontal{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.navigationButton {
+  background-color:#F6F6C9
 }
 
 hr{
@@ -9,6 +54,11 @@ border-style: dotted none none none;
 border-color: #4FA095;
 border-width: 10px;
 }
+
+body{
+  margin: 0 0 0 0;
+}
+
 h1{
 color: #F6F6C9;
 font-family: Arial, Helvetica, sans-serif;
@@ -24,14 +74,11 @@ color: #F6F6C9;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 30px;
 }
+
 a:link {
 color: #153462;
 background-color: transparent;
 text-decoration: none;
-}
-
-.navigation {
-  background-color:#F6F6C9
 }
 
 a:visited {
@@ -41,7 +88,7 @@ text-decoration: none;
 }
 
 a:hover {
-color: #4FA095;
+color: #BAD1C2;
 background-color: transparent;
 text-decoration: none;
 }
