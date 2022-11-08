@@ -13,6 +13,11 @@
   top: 0px;
   position: fixed;
 }
+ .stars{
+   padding: 20px;
+   left:0;
+   position: relative;
+ }
 
 .background{
   background-color: #153462;
