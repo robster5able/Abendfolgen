@@ -1,80 +1,173 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Abendfolgen</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-  </head>
-  <body class="background">
-    <div class="logo">
-    <img src="Kids.png" alt="kids.png" height="180px">
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fonts/fontstyles.css">
+</head>
+<body class="body">
+
+  <div class="container-fluid p-3 text-white text-center header">
+    <div class="row" margin="0px">
+      <div class="col-sm-3">
+        <img src="Kids.png" alt="kids.png" height="130px" class="kids">
+      </div>
+      <div class="col-sm-6">
+        <h1>Abendfolgen</h1>
+        <p>von Friedel und Anton</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="stars.png" alt="stars.png" height="130px">
+      </div>
     </div>
-    <div class="headline">
-      <table width="100%">
+  </div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-3 navbar_left">
+      <table>
         <tr>
-          <td><h1 class="headlineAbstandVerticalAndHorizontal">ABENDFOLGEN</h1>
-          <h3 class="headlineAbstandHorizontal">von Friedel und Anton</h3>
+          <td>
+            <a href="index.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Folgen</button>
           </td>
-          <td class="stars"><img src="stars.png" alt="stars.png" height="130px"></td>
         </tr>
         <tr>
-          <td colspan="2"> <hr> </td>
+          <td>
+            <a href="Fussballsongs.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Fußball-Songs</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Fussballuebungen.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Fußball-Übungen</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Basketball.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Basketball</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Musikvideos.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Musik-Videos</button>
+          </td>
         </tr>
       </table>
     </div>
-    <div class="navigation">
-              <table cellspacing=20>
-                <tr>
-                  <td>
-                    <a href="index.html"><button class="button-84">Folgen</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="Musikvideos.html"><button class="button-84">Musikvideos</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="Fussballsongs.html"><button class="button-84">Fußball Songs</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="Fussballuebungen.html"><button class="button-84">Fußball Übungen</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="Basketball.html"><button class="button-84">Basketball</button>
-                  </td>
-                </tr>
-              </table>
+    <div class="col-sm-9 content">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="padding:10% align:auto">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/L_XJ_s5IsQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iUYyMYynz10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BsR-IaS2BgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9c3EQhtf9-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESXgJ9-H-2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_kE0pxRkMtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SUwG8_pI-CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8KHwuOtcALQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A8MO7fkZc5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hAx6mYeC6pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FQlAEiCb8m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RNuUgbUzM8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tAGnKpE4NCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vVy9Lgpg1m8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Abrn8aVQ76Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FC3y9llDXuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qmsbP13xu6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ymNFyxvIdaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ee_uujKuJMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+      </div>
     </div>
-    <div class="content">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/L_XJ_s5IsQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iUYyMYynz10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vuo8kD5zF5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BsR-IaS2BgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9c3EQhtf9-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ESXgJ9-H-2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_kE0pxRkMtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SUwG8_pI-CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8KHwuOtcALQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A8MO7fkZc5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hAx6mYeC6pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FQlAEiCb8m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RNuUgbUzM8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tAGnKpE4NCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vVy9Lgpg1m8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Abrn8aVQ76Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FC3y9llDXuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qmsbP13xu6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ymNFyxvIdaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ee_uujKuJMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </body>
+  </div>
+</div>
+
+</body>
 </html>

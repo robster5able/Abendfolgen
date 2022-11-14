@@ -1,93 +1,126 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Abendfolgen</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-  </head>
-  <body class="background">
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fonts/fontstyles.css">
+</head>
+<body class="body">
 
-    <div class="logo">
-    <img src="Kids.png" alt="kids.png" height="180px">
+<div class="container-fluid p-3 text-white text-center header">
+  <div class="row" margin="0px">
+    <div class="col-sm-3">
+      <img src="Kids.png" alt="kids.png" height="130px" class="kids">
     </div>
-    <div class="headline">
-      <table width="100%">
+    <div class="col-sm-6">
+      <h1>Abendfolgen</h1>
+      <p>von Friedel und Anton</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="stars.png" alt="stars.png" height="130px">
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-3 navbar_left">
+      <table>
         <tr>
-          <td><h1 class="headlineAbstandVerticalAndHorizontal">ABENDFOLGEN</h1>
-          <h3 class="headlineAbstandHorizontal">von Friedel und Anton</h3>
+          <td>
+            <a href="index.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Folgen</button>
           </td>
-          <td class="stars"><img src="stars.png" alt="stars.png" height="130px"></td>
         </tr>
         <tr>
-          <td colspan="2"> <hr> </td>
+          <td>
+            <a href="Fussballsongs.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Fußball-Songs</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Fussballuebungen.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Fußball-Übungen</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Basketball.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Basketball</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Musikvideos.html"><button type="button" class="btn btn-lg btn-outline-primary button-margin">Musik-Videos</button>
+          </td>
         </tr>
       </table>
     </div>
-    <div class="navigation">
-              <table cellspacing=20>
+    <div class="col-sm-9 content">
+
+              <table style="margin:auto">
                 <tr>
                   <td>
-                    <a href="index.html"><button class="button-84">Folgen</button>
+                    <a href="https://www.zdf.de/kinder/loewenzahn"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Löwenzahn</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/robin-hood"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Robin Hood</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/h2o-abenteuer-meerjungfrau"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Meerjungfrau</button>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="Musikvideos.html"><button class="button-84">Musikvideos</button>
+                    <a href="https://www.zdf.de/kinder/wickie-und-die-starken-maenner"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Wickie</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/jonalu" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Jonalu</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/bibi-und-tina"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Bibi und Tina</button>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="Fussballsongs.html"><button class="button-84">Fußball Songs</button>
+                    <a href="https://www.zdf.de/kinder/der-kleine-drache-kokosnuss"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Kokusnuss</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/marcus-level"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Marcus Level</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/pettersson-und-findus"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Petterson und Findus</button>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="Fussballuebungen.html"><button class="button-84">Fußball Übungen</button>
+                    <a href="https://www.zdf.de/kinder/heidi"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Heidi</button>
+                  </td>
+                  <td>
+                    <a href="https://www.ardmediathek.de/sammlung/checker-reportagen/5pWQjFo06Cq9XRDU6ECIeN?isChildContent"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Checker Tobi</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/wir-kinder-aus-dem-moewenweg"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Möwenweg Kinder</button>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="Basketball.html"><button class="button-84">Basketball</button>
+                    <a href="https://www.zdf.de/kinder/peter-pan"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Peter Pan</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/die-biene-maja"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Biene Maja</button>
+                  </td>
+                  <td>
+                    <a href="https://www.zdf.de/kinder/petronella-apfelmus"><button type="button" class="btn btn-lg btn-outline-secondary btnColorFolgen button-margin">Petronella Apfelmus</button>
                   </td>
                 </tr>
               </table>
-    </div>
-    <div class="content">
-      <center>
-        <!-- HTML !-->
 
-          <table cellspacing=20>
-          <tr>
+      </div>
 
-            <td width=20%><a href="https://www.zdf.de/kinder/loewenzahn"><button class="button-71">Löwenzahn</button></td>
-            <td width=30%><a href="https://www.zdf.de/kinder/robin-hood"><button class="button-71">Robin Hood</button></td>
-            <td width=50%><a href="https://www.zdf.de/kinder/h2o-abenteuer-meerjungfrau"><button class="button-71">Abenteuer Meerjungfrau</button></td>
-          </tr>
-          <tr>
-            <td width=20%><a href="https://www.zdf.de/kinder/wickie-und-die-starken-maenner"><button class="button-71">Wickie</button></td>
-            <td width=30%><a href="https://www.zdf.de/kinder/jonalu"><button class="button-71">Jonalu</button></td>
-            <td width=50%><a href="https://www.zdf.de/kinder/bibi-und-tina"><button class="button-71">Bibi und Tina</button></td>
-          </tr>
-          <tr>
-            <td width=20%><a href="https://www.zdf.de/kinder/der-kleine-drache-kokosnuss"><button class="button-71">Kokusnuss</button></td>
-            <td width=30%><a href="https://www.zdf.de/kinder/marcus-level"><button class="button-71">Marcus Level</button></td>
-            <td width=50%><a href="https://www.zdf.de/kinder/pettersson-und-findus"><button class="button-71">Petterson und Findus</button></td>
-          </tr>
-          <tr>
-            <td width=20%><a href="https://www.zdf.de/kinder/heidi"><button class="button-71">Heidi</button></td>
-            <td width=30%><a href="https://www.ardmediathek.de/sammlung/checker-reportagen/5pWQjFo06Cq9XRDU6ECIeN?isChildContent"><button class="button-71">Checker Tobi</button></td>
-            <td width=50%><a href="https://www.zdf.de/kinder/wir-kinder-aus-dem-moewenweg"><button class="button-71">Kinder aus dem Möwenweg</button></td>
-          </tr>
-          <tr>
-            <td width=20%><a href="https://www.zdf.de/kinder/peter-pan"><button class="button-71">Peter Pan</button></td>
-            <td width=30%><a href="https://www.zdf.de/kinder/die-biene-maja"><button class="button-71">Biene Maja</button></td>
-            <td width=50%><a href="https://www.zdf.de/kinder/petronella-apfelmus"><button class="button-71">Petronella Apfelmus</button></td>
-          </tr>
-          </table>
-      </center>
-    </div>
-  </body>
+  </div>
+</div>
+
+</body>
 </html>
